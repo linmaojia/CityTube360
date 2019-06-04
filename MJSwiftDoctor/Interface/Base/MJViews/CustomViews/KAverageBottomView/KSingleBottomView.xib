@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KSingleBottomView" customModule="XLCustomer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="122"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wfn-Iy-jfX">
+                    <rect key="frame" x="0.0" y="0.0" width="436" height="122"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIf-WN-Xo8" customClass="MJButtonSure" customModule="XLCustomer" customModuleProvider="target">
+                            <rect key="frame" x="15" y="8" width="406" height="106"/>
+                            <state key="normal" title="评价"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="bgColorType" value="gray"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="fIf-WN-Xo8" firstAttribute="top" secondItem="Wfn-Iy-jfX" secondAttribute="top" constant="8" id="Bvs-wG-cvQ"/>
+                        <constraint firstAttribute="bottom" secondItem="fIf-WN-Xo8" secondAttribute="bottom" constant="8" id="HSU-Yy-vmk"/>
+                        <constraint firstItem="fIf-WN-Xo8" firstAttribute="leading" secondItem="Wfn-Iy-jfX" secondAttribute="leading" constant="15" id="dA6-Nr-YxE"/>
+                        <constraint firstAttribute="trailing" secondItem="fIf-WN-Xo8" secondAttribute="trailing" constant="15" id="t7I-c5-XSj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wfn-Iy-jfX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" priority="800" id="6qi-YR-JCN"/>
+                <constraint firstAttribute="bottom" secondItem="Wfn-Iy-jfX" secondAttribute="bottom" id="GMc-zz-XHR"/>
+                <constraint firstAttribute="trailing" secondItem="Wfn-Iy-jfX" secondAttribute="trailing" id="dDb-fF-VYd"/>
+                <constraint firstItem="Wfn-Iy-jfX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yMe-Vg-kht"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnSure" destination="fIf-WN-Xo8" id="3qu-DH-wHk"/>
+            </connections>
+            <point key="canvasLocation" x="-118.40000000000001" y="55.772113943028494"/>
+        </view>
+    </objects>
+</document>

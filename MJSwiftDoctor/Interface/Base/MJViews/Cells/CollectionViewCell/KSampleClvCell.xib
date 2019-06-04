@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="KSampleClvCell" customModule="XLCustomer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="261"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="310" height="261"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aee-0q-Ak4">
+                        <rect key="frame" x="0.0" y="0.0" width="310" height="261"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imvHead" translatesAutoresizingMaskIntoConstraints="NO" id="ns2-Gc-WKJ">
+                                <rect key="frame" x="8" y="8" width="294" height="245"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ns2-Gc-WKJ" secondAttribute="bottom" constant="8" id="9XO-gX-mvO"/>
+                            <constraint firstAttribute="trailing" secondItem="ns2-Gc-WKJ" secondAttribute="trailing" constant="8" id="D4k-bg-SOl"/>
+                            <constraint firstItem="ns2-Gc-WKJ" firstAttribute="top" secondItem="Aee-0q-Ak4" secondAttribute="top" constant="8" id="Yn8-qB-7rO"/>
+                            <constraint firstItem="ns2-Gc-WKJ" firstAttribute="leading" secondItem="Aee-0q-Ak4" secondAttribute="leading" constant="8" id="nN8-51-Hon"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Aee-0q-Ak4" secondAttribute="bottom" id="4lB-HK-0RZ"/>
+                <constraint firstItem="Aee-0q-Ak4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="9vR-Zr-H0P"/>
+                <constraint firstItem="Aee-0q-Ak4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Tbu-8k-W2K"/>
+                <constraint firstAttribute="trailing" secondItem="Aee-0q-Ak4" secondAttribute="trailing" id="lD3-UI-ClC"/>
+            </constraints>
+            <size key="customSize" width="310" height="261"/>
+            <connections>
+                <outlet property="imvIcon" destination="ns2-Gc-WKJ" id="TkV-Te-NXa"/>
+            </connections>
+            <point key="canvasLocation" x="144" y="-45.42728635682159"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="imvHead" width="640" height="640"/>
+    </resources>
+</document>

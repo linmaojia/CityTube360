@@ -1,0 +1,6 @@
+framework module Pods_MJSwiftDoctor {
+  umbrella header "Pods-MJSwiftDoctor-umbrella.h"
+
+  export *
+  module * { export * }
+}

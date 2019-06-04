@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KEqualityBottomView" customModule="MJSwiftDoctor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="97"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wfn-Iy-jfX">
+                    <rect key="frame" x="0.0" y="0.0" width="406" height="97"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIf-WN-Xo8">
+                            <rect key="frame" x="0.0" y="0.0" width="203" height="97"/>
+                            <state key="normal" title="订单"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="bgColorType" value="gray"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="titleColorName" value="black"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NSe-lk-ZKh">
+                            <rect key="frame" x="0.0" y="0.0" width="406" height="1"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="uil-LH-qgq"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxD-4x-QBu">
+                            <rect key="frame" x="203" y="0.0" width="203" height="97"/>
+                            <state key="normal" title="去付款"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="bgColorType" value="main"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="titleColorName" value="main"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lYQ-50-K7k">
+                            <rect key="frame" x="202.5" y="0.0" width="1" height="97"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="oPQ-Na-j4f"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fIf-WN-Xo8" firstAttribute="width" secondItem="uxD-4x-QBu" secondAttribute="width" id="4B9-mv-NbO"/>
+                        <constraint firstItem="fIf-WN-Xo8" firstAttribute="top" secondItem="Wfn-Iy-jfX" secondAttribute="top" id="Bvs-wG-cvQ"/>
+                        <constraint firstItem="lYQ-50-K7k" firstAttribute="top" secondItem="Wfn-Iy-jfX" secondAttribute="top" id="D9B-09-e5X"/>
+                        <constraint firstAttribute="bottom" secondItem="fIf-WN-Xo8" secondAttribute="bottom" id="HSU-Yy-vmk"/>
+                        <constraint firstItem="NSe-lk-ZKh" firstAttribute="top" secondItem="Wfn-Iy-jfX" secondAttribute="top" id="Uea-f6-FbP"/>
+                        <constraint firstItem="lYQ-50-K7k" firstAttribute="centerX" secondItem="Wfn-Iy-jfX" secondAttribute="centerX" id="VTD-5U-zE3"/>
+                        <constraint firstItem="uxD-4x-QBu" firstAttribute="leading" secondItem="fIf-WN-Xo8" secondAttribute="trailing" id="X1g-A5-Y87"/>
+                        <constraint firstItem="uxD-4x-QBu" firstAttribute="top" secondItem="Wfn-Iy-jfX" secondAttribute="top" id="cNg-qb-TtL"/>
+                        <constraint firstItem="fIf-WN-Xo8" firstAttribute="leading" secondItem="Wfn-Iy-jfX" secondAttribute="leading" id="dA6-Nr-YxE"/>
+                        <constraint firstAttribute="trailing" secondItem="uxD-4x-QBu" secondAttribute="trailing" id="dGB-0h-ZQk"/>
+                        <constraint firstItem="NSe-lk-ZKh" firstAttribute="leading" secondItem="Wfn-Iy-jfX" secondAttribute="leading" id="e4D-Ow-Qr5"/>
+                        <constraint firstAttribute="bottom" secondItem="lYQ-50-K7k" secondAttribute="bottom" id="evE-S1-Eiz"/>
+                        <constraint firstAttribute="bottom" secondItem="uxD-4x-QBu" secondAttribute="bottom" id="idX-q9-vSR"/>
+                        <constraint firstAttribute="trailing" secondItem="NSe-lk-ZKh" secondAttribute="trailing" id="kdr-9C-t3y"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wfn-Iy-jfX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6qi-YR-JCN"/>
+                <constraint firstAttribute="bottom" secondItem="Wfn-Iy-jfX" secondAttribute="bottom" id="GMc-zz-XHR"/>
+                <constraint firstAttribute="trailing" secondItem="Wfn-Iy-jfX" secondAttribute="trailing" id="dDb-fF-VYd"/>
+                <constraint firstItem="Wfn-Iy-jfX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yMe-Vg-kht"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnLeft" destination="fIf-WN-Xo8" id="ipw-69-Ivy"/>
+                <outlet property="btnRight" destination="uxD-4x-QBu" id="EzT-2q-fLm"/>
+            </connections>
+            <point key="canvasLocation" x="-16" y="65.217391304347828"/>
+        </view>
+    </objects>
+</document>

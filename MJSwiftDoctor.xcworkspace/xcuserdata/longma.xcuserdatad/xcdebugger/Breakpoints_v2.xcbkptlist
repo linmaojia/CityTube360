@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XLCustomer/Interface/Consult/ChatManager/IMChatManager.swift"
+            timestampString = "575803824.687184"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "uploadObject(withFileSuffix:directory:fileData:process:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XLCustomer/Interface/Base/MJViews/CustomViews/CustomAddressView/CustomAddressView.swift"
+            timestampString = "577076005.952126"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "requestCityList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XLCustomer.CustomAddressView.requestCityList() -&gt; ()"
+                  moduleName = "XLCustomer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longma/Desktop/%E6%9D%8F%E6%9E%97%E7%94%A8%E6%88%B7%E7%AB%AF/XLCustomer/XLCustomer/Interface/Base/MJViews/CustomViews/CustomAddressView/CustomAddressView.swift"
+                  timestampString = "577068787.21482"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "720">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any, Swift.Optional&lt;__C.NSError&gt;) -&gt; () in XLCustomer.CustomAddressView.requestCityList() -&gt; ()"
+                  moduleName = "XLCustomer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longma/Desktop/%E6%9D%8F%E6%9E%97%E7%94%A8%E6%88%B7%E7%AB%AF/XLCustomer/XLCustomer/Interface/Base/MJViews/CustomViews/CustomAddressView/CustomAddressView.swift"
+                  timestampString = "577068787.220033"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XLCustomer/Interface/Base/MJTools/MJNetWorking/MJAFNetWorking.swift"
+            timestampString = "579689916.736968"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "post(urlString:parameters:modelClass:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
