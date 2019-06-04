@@ -23,7 +23,7 @@ class StoreHomeVC: MJBasicViewController {
     }
     func setUIAppearance(){
         self.title = "longma"
-        
+        //6月4号，我是测试的
         self.view.addSubview(tbvData)
         tbvData.snp.makeConstraints { (make) -> Void in
             make.edges.equalTo(self.view)
