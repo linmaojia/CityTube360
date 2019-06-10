@@ -34,6 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MJStyleManager.customDefaultStyle()
         
         self.setJMessageService(launchOptions)
+        self.setTXLiteAVService()
 
     }
     
@@ -66,6 +67,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         JMessage.registerDeviceToken(deviceToken)
     }
     
+    
+    //MARK: ********************************************************  初始化腾讯短视频 SDK
+    func setTXLiteAVService() {
+
+        TXUGCBase.setLicenceURL(kTXLiteAVlicenceURL, key: kTXLiteAVlicenceKey)
+        print("SDK Version = \(TXLiveBase.getSDKVersionStr() ?? "")")
+        
+    }
     //MARK: ********************************************************  初始化极光 IM SDK
     func setJMessageService(_ launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
         

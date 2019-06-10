@@ -26,4 +26,4 @@ import YYModel
 @_exported import TYCyclePagerView
 @_exported import WZLBadge
 @_exported import JMessage
-@_exported import AliyunVideoSDKPro
+@_exported import TXLiteAVSDK_UGC

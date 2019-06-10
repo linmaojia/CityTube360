@@ -8,7 +8,9 @@
 
 import Foundation
 import UIKit
-
+/*================================= 腾讯短视频===============================================*/
+let kTXLiteAVlicenceURL:String = "http://license.vod2.myqcloud.com/license/v1/fe3a56e1e3236e7fa07b6105bb4ce64d/TXUgcSDK.licence"
+let kTXLiteAVlicenceKey:String = "32f81c237d436af51f1ca428fd3ffece"
 
 /*================================= 极光IM===============================================*/
 let kJMessageAppKey:String = "3709f2ac88271c13110e6a1c"

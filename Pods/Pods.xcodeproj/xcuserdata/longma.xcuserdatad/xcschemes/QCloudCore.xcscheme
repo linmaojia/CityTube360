@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2AEF3D336A044DA709C749A61CBD3D40"
+               BlueprintIdentifier = "FD05CD6989B73D70D85F6B90A069E80F"
                BlueprintName = "QCloudCore"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "QCloudCore.framework">

@@ -49,8 +49,6 @@
 		3D3F12EF220296FC00FE9631 /* KSimpleTitleAndSubTbvCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F12ED220296FB00FE9631 /* KSimpleTitleAndSubTbvCell.swift */; };
 		3D3F12F0220296FC00FE9631 /* KSimpleTitleAndSubTbvCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F12EE220296FC00FE9631 /* KSimpleTitleAndSubTbvCell.xib */; };
 		3D3F12F22202C7D100FE9631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3F12F12202C7D100FE9631 /* Foundation.framework */; };
-		3D43AB9322A7882B0048EBAA /* RecorderVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D43AB9122A7882B0048EBAA /* RecorderVideoVC.swift */; };
-		3D43AB9422A7882B0048EBAA /* RecorderVideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D43AB9222A7882B0048EBAA /* RecorderVideoVC.xib */; };
 		3D45450421E8203300A6570A /* MJDictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45450321E8203300A6570A /* MJDictionaryExtensions.swift */; };
 		3D45450621E82CF400A6570A /* UrlConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45450521E82CF400A6570A /* UrlConst.swift */; };
 		3D45451421E8446D00A6570A /* MJProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45451321E8446D00A6570A /* MJProgressHUD.swift */; };
@@ -82,6 +80,12 @@
 		3D68200A21D709BF005860A4 /* MJBasicNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68200921D709BF005860A4 /* MJBasicNavigationController.swift */; };
 		3D68200C21D7401D005860A4 /* MJColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68200B21D7401D005860A4 /* MJColorExtensions.swift */; };
 		3D6C55AC2251F3E800F01E0F /* CustomTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C55AB2251F3E800F01E0F /* CustomTypeView.swift */; };
+		3D6D109622AE01C100E0A08E /* TXLiteAVSDK_UGC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6D109522AE01C100E0A08E /* TXLiteAVSDK_UGC.framework */; };
+		3D6D109822AE01DB00E0A08E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6D109722AE01DA00E0A08E /* Accelerate.framework */; };
+		3D6D10A122AE059B00E0A08E /* RecorderHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D109D22AE059A00E0A08E /* RecorderHomeVC.swift */; };
+		3D6D10A222AE059B00E0A08E /* RecorderVideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D109E22AE059A00E0A08E /* RecorderVideoVC.xib */; };
+		3D6D10A322AE059B00E0A08E /* RecorderVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D109F22AE059B00E0A08E /* RecorderVideoVC.swift */; };
+		3D6D10A422AE059B00E0A08E /* RecorderHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D10A022AE059B00E0A08E /* RecorderHomeVC.xib */; };
 		3D71AF4B229B82B6008DE476 /* MineLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71AF48229B82B6008DE476 /* MineLoginVC.swift */; };
 		3D71AF4C229B82B6008DE476 /* MineLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D71AF49229B82B6008DE476 /* MineLoginVC.xib */; };
 		3D72E98621D6106800FB5632 /* MJDateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72E87421D6105000FB5632 /* MJDateExtensions.swift */; };
@@ -172,8 +176,6 @@
 		3D3F12ED220296FB00FE9631 /* KSimpleTitleAndSubTbvCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSimpleTitleAndSubTbvCell.swift; sourceTree = "<group>"; };
 		3D3F12EE220296FC00FE9631 /* KSimpleTitleAndSubTbvCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KSimpleTitleAndSubTbvCell.xib; sourceTree = "<group>"; };
 		3D3F12F12202C7D100FE9631 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3D43AB9122A7882B0048EBAA /* RecorderVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderVideoVC.swift; sourceTree = "<group>"; };
-		3D43AB9222A7882B0048EBAA /* RecorderVideoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecorderVideoVC.xib; sourceTree = "<group>"; };
 		3D45450321E8203300A6570A /* MJDictionaryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJDictionaryExtensions.swift; sourceTree = "<group>"; };
 		3D45450521E82CF400A6570A /* UrlConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlConst.swift; sourceTree = "<group>"; };
 		3D45451321E8446D00A6570A /* MJProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJProgressHUD.swift; sourceTree = "<group>"; };
@@ -211,6 +213,12 @@
 		3D68200921D709BF005860A4 /* MJBasicNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJBasicNavigationController.swift; sourceTree = "<group>"; };
 		3D68200B21D7401D005860A4 /* MJColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJColorExtensions.swift; sourceTree = "<group>"; };
 		3D6C55AB2251F3E800F01E0F /* CustomTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTypeView.swift; sourceTree = "<group>"; };
+		3D6D109522AE01C100E0A08E /* TXLiteAVSDK_UGC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_UGC.framework; sourceTree = "<group>"; };
+		3D6D109722AE01DA00E0A08E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3D6D109D22AE059A00E0A08E /* RecorderHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderHomeVC.swift; sourceTree = "<group>"; };
+		3D6D109E22AE059A00E0A08E /* RecorderVideoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecorderVideoVC.xib; sourceTree = "<group>"; };
+		3D6D109F22AE059B00E0A08E /* RecorderVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderVideoVC.swift; sourceTree = "<group>"; };
+		3D6D10A022AE059B00E0A08E /* RecorderHomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecorderHomeVC.xib; sourceTree = "<group>"; };
 		3D71AF48229B82B6008DE476 /* MineLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineLoginVC.swift; sourceTree = "<group>"; };
 		3D71AF49229B82B6008DE476 /* MineLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineLoginVC.xib; sourceTree = "<group>"; };
 		3D72E87421D6105000FB5632 /* MJDateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJDateExtensions.swift; sourceTree = "<group>"; };
@@ -247,12 +255,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6D109822AE01DB00E0A08E /* Accelerate.framework in Frameworks */,
 				3D2A13B721EC7BC700DD779F /* libc++.tbd in Frameworks */,
 				3D2A13B521EC7BBC00DD779F /* SystemConfiguration.framework in Frameworks */,
 				3D3F12F22202C7D100FE9631 /* Foundation.framework in Frameworks */,
 				3D2A13B321EC7BB300DD779F /* CoreTelephony.framework in Frameworks */,
 				3D2A13BB21EC7BDC00DD779F /* libsqlite3.tbd in Frameworks */,
 				3D2A13B921EC7BD100DD779F /* libz.tbd in Frameworks */,
+				3D6D109622AE01C100E0A08E /* TXLiteAVSDK_UGC.framework in Frameworks */,
 				BBBC676B2448FB57C01613C0 /* Pods_MJSwiftDoctor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +605,49 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
+		3D6D109422AE01C100E0A08E /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3D6D109522AE01C100E0A08E /* TXLiteAVSDK_UGC.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		3D6D109922AE054D00E0A08E /* TXVideo */ = {
+			isa = PBXGroup;
+			children = (
+				3D6D109A22AE054D00E0A08E /* RecorderVideo */,
+			);
+			path = TXVideo;
+			sourceTree = "<group>";
+		};
+		3D6D109A22AE054D00E0A08E /* RecorderVideo */ = {
+			isa = PBXGroup;
+			children = (
+				3D6D109B22AE054D00E0A08E /* controllers */,
+				3D6D109C22AE054D00E0A08E /* views */,
+			);
+			path = RecorderVideo;
+			sourceTree = "<group>";
+		};
+		3D6D109B22AE054D00E0A08E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D6D109D22AE059A00E0A08E /* RecorderHomeVC.swift */,
+				3D6D10A022AE059B00E0A08E /* RecorderHomeVC.xib */,
+				3D6D109F22AE059B00E0A08E /* RecorderVideoVC.swift */,
+				3D6D109E22AE059A00E0A08E /* RecorderVideoVC.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		3D6D109C22AE054D00E0A08E /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		3D71AF45229B82B6008DE476 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -850,6 +903,7 @@
 		3D72E86B21D6105000FB5632 /* Work */ = {
 			isa = PBXGroup;
 			children = (
+				3D6D109922AE054D00E0A08E /* TXVideo */,
 				3D72E86C21D6105000FB5632 /* WorkHome */,
 			);
 			path = Work;
@@ -868,8 +922,6 @@
 		3D72E86D21D6105000FB5632 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3D43AB9122A7882B0048EBAA /* RecorderVideoVC.swift */,
-				3D43AB9222A7882B0048EBAA /* RecorderVideoVC.xib */,
 				3D72EA1F21D6255300FB5632 /* WorkHomeVC.swift */,
 				3D636B37223B87EC003AE2C0 /* other */,
 			);
@@ -942,6 +994,7 @@
 		3D72E87A21D6106600FB5632 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				3D6D109422AE01C100E0A08E /* SDK */,
 				3D05185A21ED71E60062B2D1 /* Components */,
 				3DBD2F6D21E7304B00D7E2D2 /* ObjectiveC */,
 			);
@@ -1172,6 +1225,7 @@
 		FA67327D3B4A183B363DD777 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D6D109722AE01DA00E0A08E /* Accelerate.framework */,
 				3D3F12F12202C7D100FE9631 /* Foundation.framework */,
 				3D2A13BA21EC7BDC00DD779F /* libsqlite3.tbd */,
 				3D2A13B821EC7BD100DD779F /* libz.tbd */,
@@ -1309,7 +1363,8 @@
 				3D39637A21E44BBA000BB659 /* MineHomeTbvHeadView.xib in Resources */,
 				3D565D2F2283B3330015234F /* KAverageBottomView.xib in Resources */,
 				3D2B8DDA21EEF6D300B18945 /* KSimpleTbvHeadView.xib in Resources */,
-				3D43AB9422A7882B0048EBAA /* RecorderVideoVC.xib in Resources */,
+				3D6D10A222AE059B00E0A08E /* RecorderVideoVC.xib in Resources */,
+				3D6D10A422AE059B00E0A08E /* RecorderHomeVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1338,16 +1393,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MJSwiftDoctor/Pods-MJSwiftDoctor-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${PODS_ROOT}/AlivcConan/AlivcConan.framework",
-				"${BUILT_PRODUCTS_DIR}/AliyunOSSiOS/AliyunOSSiOS.framework",
-				"${PODS_ROOT}/AliyunVideoSDKPro/frameworks/AliyunVideoSDKPro.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${PODS_ROOT}/QuCore-ThirdParty/frameworks/alivcffmpeg.framework",
 				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SGPagingView/SGPagingView.framework",
@@ -1366,16 +1417,12 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlivcConan.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AliyunOSSiOS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AliyunVideoSDKPro.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/alivcffmpeg.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SGPagingView.framework",
@@ -1428,6 +1475,7 @@
 				3D3F12EF220296FC00FE9631 /* KSimpleTitleAndSubTbvCell.swift in Sources */,
 				3D53A83521E5A42000A22DBE /* MJUITextFieldExtensions.swift in Sources */,
 				3D3AC61121DDD772002D1984 /* MJManager.swift in Sources */,
+				3D6D10A122AE059B00E0A08E /* RecorderHomeVC.swift in Sources */,
 				3D597DF221E6D93F001DCB8B /* MJUIFontExtensions.swift in Sources */,
 				3D28492C2240C46F00E7D753 /* KSimpleTitleAndBoultTbvCell.swift in Sources */,
 				3DF8664822487F12006C49F3 /* MJAnyModel.swift in Sources */,
@@ -1437,6 +1485,7 @@
 				3D45451421E8446D00A6570A /* MJProgressHUD.swift in Sources */,
 				3D636B3C223B88D9003AE2C0 /* PocketPay1VC.swift in Sources */,
 				3D5C28BA223F905100E12B01 /* MJUITextViewExtensions.swift in Sources */,
+				3D6D10A322AE059B00E0A08E /* RecorderVideoVC.swift in Sources */,
 				3D68200821D7039D005860A4 /* PrefixHeader.swift in Sources */,
 				3D3AC60421DD981F002D1984 /* MJViewExtensions.swift in Sources */,
 				3D5C28A3223F6B2C00E12B01 /* MJPlaceTextView.swift in Sources */,
@@ -1467,7 +1516,6 @@
 				3D8324D72289477300BBAA1B /* KAlertTextFieldView.swift in Sources */,
 				3D9A547122433FDD00B6B57E /* CustomAddressView.swift in Sources */,
 				3D05185621ED64BA0062B2D1 /* TokenModel.swift in Sources */,
-				3D43AB9322A7882B0048EBAA /* RecorderVideoVC.swift in Sources */,
 				3D68200121D6FC4B005860A4 /* MineHomeVC.swift in Sources */,
 				3D72E98721D6106800FB5632 /* MJStringExtensions.swift in Sources */,
 				3DFB8D80226056DD005FC019 /* CustomTimeView.swift in Sources */,
@@ -1655,6 +1703,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MJSwiftDoctor/Vendor/TencentIM",
+					"$(PROJECT_DIR)/MJSwiftDoctor/Vendor/SDK",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MJSwiftDoctor/Vendor/ObjectiveC/OCConfig/PrefixHeader.pch";
 				INFOPLIST_FILE = MJSwiftDoctor/Info.plist;
@@ -1704,9 +1753,8 @@
 					"-framework",
 					"\"YYModel\"",
 					"-ObjC",
-					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.XLH.MJSwiftDoctor;
+				PRODUCT_BUNDLE_IDENTIFIER = citywalk.360.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MJSwiftDoctor/Config/Brigding-Header.h";
@@ -1728,6 +1776,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MJSwiftDoctor/Vendor/TencentIM",
+					"$(PROJECT_DIR)/MJSwiftDoctor/Vendor/SDK",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MJSwiftDoctor/Vendor/ObjectiveC/OCConfig/PrefixHeader.pch";
 				INFOPLIST_FILE = MJSwiftDoctor/Info.plist;
@@ -1777,9 +1826,8 @@
 					"-framework",
 					"\"YYModel\"",
 					"-ObjC",
-					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.XLH.MJSwiftDoctor;
+				PRODUCT_BUNDLE_IDENTIFIER = citywalk.360.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MJSwiftDoctor/Config/Brigding-Header.h";

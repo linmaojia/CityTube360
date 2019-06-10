@@ -26,9 +26,5 @@ target “MJSwiftDoctor” do
     pod 'TYCyclePagerView'
     pod 'WZLBadge'
     pod 'JMessage'
-    pod 'AliyunVideoSDKPro'
-    pod 'QuCore-ThirdParty'
-    pod 'VODUpload'
-    pod 'AliyunOSSiOS'
-    pod 'AlivcConan'
+  
 end

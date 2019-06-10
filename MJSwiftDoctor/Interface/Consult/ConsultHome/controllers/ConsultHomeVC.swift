@@ -19,7 +19,9 @@ class ConsultHomeVC: MJBasicViewController {
     }
     
     func setLocalData(){
-        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Int64(1 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC), execute: {
+            self.pushViewController(targetStr: "RecorderVideoVC")
+        })
     }
     func setUIAppearance(){
         self.title = "longma"
