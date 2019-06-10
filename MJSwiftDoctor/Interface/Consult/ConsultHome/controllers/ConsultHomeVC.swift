@@ -20,6 +20,7 @@ class ConsultHomeVC: MJBasicViewController {
     
     func setLocalData(){
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Double(Int64(1 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC), execute: {
+            MJProgressHUD.showToat(withStatus: "版本二")
             self.pushViewController(targetStr: "RecorderHomeVC")
         })
     }
